@@ -1,4 +1,4 @@
-# New To AWS? 
+# New To Amazon Web Services (AWS)? 
 Nowadays it's very difficult to imagine building an application that does not use any top Cloud providers like AWS, Google Cloud, or Azure. Many fresh or experienced engineers are rushing to learn these cloud services to either upgrade their skillset or build modern applications. 
 
 If you are new to AWS, it can get overwhelming. There are 200+ services and many of them are interdependent and interconnected. I have put a list of core services and concepts that you can refer to and solidify your understanding of the AWS Cloud.
@@ -14,3 +14,16 @@ For each service, I have put some basic explanations, mostly taken from the AWS 
 The AWS documentation is the best source of detailed information. The documentation refererences may feel a bit boring and lengthy, but I have put only the required references that are critical for initial understanding. 
 
 You can stroll around to different resources but do make sure to read through the referenced documentation first.
+
+## AWS Global Infrastructure
+The AWS Cloud infrastructure is built around AWS Regions, Availability Zones, and Edge locations. An AWS Region is a group of physical locations that has multiple data centers known as Availability Zones. Availability Zones consist of one or more discrete data centers, each with redundant power, networking, and connectivity, housed in separate facilities. These Availability Zones offer you the ability to operate production applications and databases that are more highly available, fault-tolerant, and scalable than would be possible from a single data center.
+
+- https://aws.amazon.com/about-aws/global-infrastructure/
+- https://aws.amazon.com/about-aws/global-infrastructure/regions_az/
+
+### Do
+- Understand the benefits of having a well-spread global infrastructure
+- Select proper geographic location(s) based on the use case of your application
+
+### Don’t
+- While following any tutorial, do not create resources in the geographic locations mentioned in that tutorial as it is. I have seen people follow certain regions as it is, because everyone else does that. 
