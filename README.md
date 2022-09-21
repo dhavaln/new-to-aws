@@ -73,3 +73,31 @@ You can use AWS Budgets to track and take action on your AWS cost and usage. You
 - Don’t Assume anything, AWS can be very costly if you do not put guardrails
 - Give full permissions to every user that you create in your account
 
+
+## Amazon Simple Storage Service (S3)
+Amazon S3 is an object storage service that offers industry-leading scalability, data availability, security, and performance. Customers of all sizes and industries can use Amazon S3 to store and protect any amount of data for a range of use cases. Amazon reported it stored more than 100 trillion objects as of [March 2021](https://aws.amazon.com/blogs/aws/amazon-s3s-15th-birthday-it-is-still-day-1-after-5475-days-100-trillion-objects/). Amazon S3 was the earliest cloud service that focused on API-driven Cloud Infrastructure, freeing developers from any capacity planning, pay only for used storage, and with practically unlimited storage capacity. 
+
+Over the years, S3 has kept on adding new innovative features. You can use S3 for the following use cases:
+- Privately storing your application data (CSV, Images, Videos, or any other types)
+- Static Website Hosting (Angular, Vue, React, or any other JavaScript-based Single Page Applications)
+- Store files in different storage formats like Instant Retrieval, Infrequent Retrieval, Long-term backup, etc. Each format has different storage and retrieval cost. 
+- Automatically transition stored files to an optimal storage format based on file age, this reduces the storage cost over the period of time.
+- Automatically Delete stored files after certain periods of time
+
+### Refereces
+- https://docs.aws.amazon.com/AmazonS3/latest/userguide/Welcome.html
+- https://docs.aws.amazon.com/AmazonS3/latest/userguide/access-bucket-intro.html
+- https://docs.aws.amazon.com/AmazonS3/latest/userguide/WebsiteHosting.html
+- https://docs.aws.amazon.com/AmazonS3/latest/userguide/object-lifecycle-mgmt.html
+- https://docs.aws.amazon.com/AmazonS3/latest/userguide/aws-billing-reports.html
+- https://docs.aws.amazon.com/AmazonS3/latest/userguide/using-presigned-url.html
+
+### Do
+- Depending on your use case, create the Bucket in the same region where the rest of your application resources are running.
+- Check your use case and Create Private Buckets Only
+- Create Lifecycle policies to transition files to an optimal storage tier
+- Create Pre-signed URLs to share files stored in the bucket
+
+### Don’t 
+- Do not create Public Buckets unless really required
+- Make sure you do not store sensitive user information inside the S3 bucket files unless your application and AWS account has enough security in place. For example, User Personal details, Credit card information, Medical information, etc.
