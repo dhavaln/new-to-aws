@@ -129,3 +129,24 @@ https://aws.amazon.com/s3/storage-launches-infographic/
 ### Don’t 
 - Do not create Public Buckets unless really required
 - Make sure you do not store sensitive user information inside the S3 bucket files unless your application and AWS account has enough security in place. For example, User Personal details, Credit card information, Medical information, etc.
+
+
+## Amazon CloudWatch
+Amazon CloudWatch monitors your Amazon Web Services (AWS) resources and the applications you run on AWS in real-time. You can use CloudWatch to collect and track metrics, which are variables you can measure for your resources and applications.
+
+The CloudWatch home page automatically displays metrics about every AWS service you use. You can additionally create custom dashboards to display metrics about your custom applications and display custom collections of metrics that you choose.
+
+With Amazon CloudWatch you can centrally manage your Application Logs, and metrics, configure alarms, and other operational things. 
+
+- https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/GettingStarted.htm
+
+## AWS CloudTrail
+AWS CloudTrail helps you enable operational and risk auditing, governance, and compliance of your AWS account. Actions taken by a user, role, or an AWS service are recorded as events in CloudTrail. Events include actions taken in the AWS Management Console, AWS Command Line Interface, and AWS SDKs and APIs.
+
+CloudTrail is enabled by default on your AWS account when you create it. When activity occurs in your AWS account, that activity is recorded in a CloudTrail event. You can easily view recent events in the CloudTrail console by going to Event history.
+
+`Note: CloudTrail is one of the most important services in the AWS Cloud. This service will help you log all the AWS API call and enable security analysis, resource change tracking, and compliance auditing.`
+
+- https://docs.aws.amazon.com/awscloudtrail/latest/userguide/how-cloudtrail-works.html
+- https://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudtrail-workflow.html
+- https://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudtrail-create-and-update-a-trail-by-using-the-console.html
