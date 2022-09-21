@@ -108,6 +108,10 @@ Over the years, S3 has kept on adding new innovative features. You can use S3 fo
 - Automatically transition stored files to an optimal storage format based on file age, this reduces the storage cost over the period of time.
 - Automatically Delete stored files after certain periods of time
 
+`There is nice feature infographic released by AWS after S3 turned 15. It is safe to say, S3 was a pioneer cloud storage service and over the years it transformed the way storage is done and managed.`
+
+https://aws.amazon.com/s3/storage-launches-infographic/
+
 ### Refereces
 - https://docs.aws.amazon.com/AmazonS3/latest/userguide/Welcome.html
 - https://docs.aws.amazon.com/AmazonS3/latest/userguide/access-bucket-intro.html
