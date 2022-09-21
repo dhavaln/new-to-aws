@@ -28,10 +28,10 @@ There are a few niche services, like AWS Shield Advanced, that may have fixed mo
 
 ## Table of Content
 
-- AWS Global Infrastructure
-- AWS Account and Root User
-- AWS Billing
-- Amazon Simple Storage Service (S3)
+- [AWS Global Infrastructure](#aws-global-infrastructure)
+- [AWS Account and Root User](#aws-account-and-root-user)
+- [AWS Billing](#aws-billing)
+- [Amazon Simple Storage Service (S3)](#amazon-simple-storage-service)
 - Amazon CloudWatch
 - AWS CloudTrail
 - AWS Virtual Private Cloud (VPC)
@@ -98,7 +98,7 @@ You can use AWS Budgets to track and take action on your AWS cost and usage. You
 - Give full permissions to every user that you create in your account
 
 
-## Amazon Simple Storage Service (S3)
+## Amazon Simple Storage Service
 Amazon S3 is an object storage service that offers industry-leading scalability, data availability, security, and performance. Customers of all sizes and industries can use Amazon S3 to store and protect any amount of data for a range of use cases. Amazon reported it stored more than 100 trillion objects as of [March 2021](https://aws.amazon.com/blogs/aws/amazon-s3s-15th-birthday-it-is-still-day-1-after-5475-days-100-trillion-objects/). Amazon S3 was the earliest cloud service that focused on API-driven Cloud Infrastructure, freeing developers from any capacity planning, pay only for used storage, and with practically unlimited storage capacity. 
 
 Over the years, S3 has kept on adding new innovative features. You can use S3 for the following use cases:
