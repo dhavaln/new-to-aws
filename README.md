@@ -50,3 +50,26 @@ It is strongly recommended not use the root user for the everyday tasks, even th
 - Do not give your Root User Credentials to Anyone
 - Do not generate Access Keys for Root User
 - Do not generate Access Keys for IAM Users if not needed
+
+
+## AWS Billing
+AWS automatically charges the credit card that you provided when you sign up for an AWS account. You can view or update your credit card information at any time, including designating a different credit card for AWS to charge. Do keep in mind that the charges are only applied if you have used any resources. AWS has highly granular structure for the charges and each service has different and multiple types of charges applied. 
+
+- https://docs.aws.amazon.com/IAM/latest/UserGuide/tutorial_billing.html
+- https://docs.aws.amazon.com/awsaccountbilling/latest/aboutv2/checklistforunwantedcharges.html
+
+AWS Cost Explorer is a tool that enables you to view and analyze your costs and usage. You can explore your usage and costs using the main graph, the Cost Explorer cost and usage reports, or the Cost Explorer RI reports. You can use Cost Explorer to identify areas that need further inquiry and see trends that you can use to understand your costs.
+
+You can use AWS Budgets to track and take action on your AWS cost and usage. You can use AWS Budgets to monitor your aggregate utilization and coverage metrics.
+
+- https://docs.aws.amazon.com/cost-management/latest/userguide/budgets-managing-costs.html
+
+### Do
+- Create Budget alerts based on your estimated monthly spending
+- Give Budget Access Permissions to authorized users only
+- Spend a few minutes per month to check your Bill and analyze the resource usage
+
+### Don’t 
+- Don’t Assume anything, AWS can be very costly if you do not put guardrails
+- Give full permissions to every user that you create in your account
+
