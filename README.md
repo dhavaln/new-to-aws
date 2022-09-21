@@ -27,3 +27,26 @@ The AWS Cloud infrastructure is built around AWS Regions, Availability Zones, an
 
 ### Don’t
 - While following any tutorial, do not create resources in the geographic locations mentioned in that tutorial as it is. I have seen people follow certain regions as it is, because everyone else does that. 
+
+
+## AWS Account and Root User
+When you create an your AWS account, you begin with one identity that has complete access to all the AWS services and resources in the account. This identity is called the AWS account Root User. You can sign in as the root user using the email address and password that you used to create the account.
+
+It is strongly recommended not use the root user for the everyday tasks, even the administrative ones. Instead, adhere to the best practice of using the root user only to create your first IAM user. Then securely lock away the root user credentials and use them to perform only a few account and service management tasks. The IAM user represents the person or service who uses the IAM user to interact with AWS, either through UI or programmatically. The best thing about an IAM user is that, it can only DO things that is explicitly granted, known as Service policies or permissions. 
+
+- https://docs.aws.amazon.com/IAM/latest/UserGuide/id.html
+- https://docs.aws.amazon.com/IAM/latest/UserGuide/id_root-user.html
+- https://docs.aws.amazon.com/IAM/latest/UserGuide/id_credentials_access-keys.html
+- https://docs.aws.amazon.com/IAM/latest/UserGuide/id_credentials_mfa.html
+
+
+### Do
+- Enable MFA on Root User
+- Create IAM User with specific IAM Permissions
+- Create Groups for specific sets of users and Assign Permissions to the Group
+- Check permissions of the IAM User before generating and sharing the Access Keys
+
+### Don’t 
+- Do not give your Root User Credentials to Anyone
+- Do not generate Access Keys for Root User
+- Do not generate Access Keys for IAM Users if not needed
