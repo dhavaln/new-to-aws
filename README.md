@@ -15,6 +15,30 @@ The AWS documentation is the best source of detailed information. The documentat
 
 You can stroll around to different resources but do make sure to read through the referenced documentation first.
 
+## FAQ
+
+### Some services start with Amazon and others start with AWS, any reason?
+The pattern is that utility services are prefixed with AWS, while standalone services are prefixed by "Amazon".
+https://stackoverflow.com/a/33134738/224844
+
+### Is every service chargeable inside AWS? Is there any fixed cost of using AWS?
+There are different types of services offered by AWS. Most of the services are charged for the amount of time it is in use, the amount of data being stored or the amount of data being transferred. To simplify, if you create a Virtual Machine using EC2 then you will have to pay for the exact duration the EC2 instance was up and running, even though you didn’t do anything inside but you still have to pay. On the other hand, if you create an S3 storage bucket, but do not store anything inside it then you are not charged for anything because S3 costs for the amount of data that you store and transfer. 
+
+There are a few niche services, like AWS Shield Advanced, that may have fixed monthly costs, but chances are you may not use those services immediately.
+
+## Table of Content
+
+- AWS Global Infrastructure
+- AWS Account and Root User
+- AWS Billing
+- Amazon Simple Storage Service (S3)
+- Amazon CloudWatch
+- AWS CloudTrail
+- AWS Virtual Private Cloud (VPC)
+- Amazon Elastic Compute Cloud (EC2)
+- What’s Free in AWS
+- Kill Switch 
+
 ## AWS Global Infrastructure
 The AWS Cloud infrastructure is built around AWS Regions, Availability Zones, and Edge locations. An AWS Region is a group of physical locations that has multiple data centers known as Availability Zones. Availability Zones consist of one or more discrete data centers, each with redundant power, networking, and connectivity, housed in separate facilities. These Availability Zones offer you the ability to operate production applications and databases that are more highly available, fault-tolerant, and scalable than would be possible from a single data center.
 
