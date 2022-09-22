@@ -39,6 +39,7 @@ https://aws.amazon.com/free/
 - [AWS CloudTrail](#aws-cloudtrail)
 - AWS Virtual Private Cloud (VPC)
 - Amazon Elastic Compute Cloud (EC2)
+- Service quotas
 - What’s Free in AWS
 - Kill Switch 
 
@@ -65,7 +66,7 @@ It is strongly recommended not use the root user for the everyday tasks, even th
 - https://docs.aws.amazon.com/IAM/latest/UserGuide/id_root-user.html
 - https://docs.aws.amazon.com/IAM/latest/UserGuide/id_credentials_access-keys.html
 - https://docs.aws.amazon.com/IAM/latest/UserGuide/id_credentials_mfa.html
-
+- https://docs.aws.amazon.com/general/latest/gr/root-vs-iam.html
 
 ### Do
 - Enable MFA on Root User
