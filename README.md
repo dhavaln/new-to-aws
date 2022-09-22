@@ -26,6 +26,9 @@ There are different types of services offered by AWS. Most of the services are c
 
 There are a few niche services, like AWS Shield Advanced, that may have fixed monthly costs, but chances are you may not use those services immediately.
 
+However there are different levels of `Free` offerings, Some resources are available free for first 12 months after initial signup, some resources are free for limited duration after you activate them and some resources are free for Life-time. To know more detail, please visit this page. 
+https://aws.amazon.com/free/
+
 ## Table of Content
 
 - [AWS Global Infrastructure](#aws-global-infrastructure)
