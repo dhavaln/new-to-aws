@@ -35,8 +35,8 @@ https://aws.amazon.com/free/
 - [AWS Account and Root User](#aws-account-and-root-user)
 - [AWS Billing](#aws-billing)
 - [Amazon Simple Storage Service (S3)](#amazon-simple-storage-service)
-- Amazon CloudWatch
-- AWS CloudTrail
+- [Amazon CloudWatch](#amazon-cloudwatch)
+- [AWS CloudTrail](#aws-cloudtrail)
 - AWS Virtual Private Cloud (VPC)
 - Amazon Elastic Compute Cloud (EC2)
 - What’s Free in AWS
