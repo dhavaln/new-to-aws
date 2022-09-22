@@ -29,6 +29,12 @@ There are a few niche services, like AWS Shield Advanced, that may have fixed mo
 However there are different levels of `Free` offerings, Some resources are available free for first 12 months after initial signup, some resources are free for limited duration after you activate them and some resources are free for Life-time. To know more detail, please visit this page. 
 https://aws.amazon.com/free/
 
+### Where else I can get more detail resources for AWS?
+- https://awsstash.com/
+- https://www.youtube.com/watch?v=OQKOHNtyz3E&list=PLhr1KZpdzukdeX8mQ2qO73bg6UKQHYsHb&ab_channel=AmazonWebServices
+- https://www.lastweekinaws.com/
+- https://www.awsgeek.com/
+
 ## Table of Content
 
 - [AWS Global Infrastructure](#aws-global-infrastructure)
