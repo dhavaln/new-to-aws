@@ -136,9 +136,22 @@ Amazon CloudWatch monitors your Amazon Web Services (AWS) resources and the appl
 
 The CloudWatch home page automatically displays metrics about every AWS service you use. You can additionally create custom dashboards to display metrics about your custom applications and display custom collections of metrics that you choose.
 
-With Amazon CloudWatch you can centrally manage your Application Logs, and metrics, configure alarms, and other operational things. 
+With Amazon CloudWatch you can centrally manage your Application Logs, and metrics, configure alarms, and other operational things.
+
+There are interesting things you can do easily with the CloudWatch service. You can install the CloudWatch Agent on your on-prem or another cloud VMs and push logs to CloudWatch Logs, you can create real-time log processing with subscriptions on the logs and invoke Lambda functions or push events to another AWS service.
 
 - https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/GettingStarted.htm
+- https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/cloudwatch-metrics-basic-detailed.html
+- https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/Install-CloudWatch-Agent.html
+- https://docs.aws.amazon.com/AmazonCloudWatch/latest/logs/Subscriptions.html
+
+### Do
+- Understand the difference between Log Groups and Log Streams
+- Do evaluate what is really needed to be monitored for your application
+
+### Don't
+- Enable detail monoting unless required, this will incur additional cost
+- Don't do excessive logging, use debug flag or other configs to enable/disable detailed logging in your application
 
 ## AWS CloudTrail
 AWS CloudTrail helps you enable operational and risk auditing, governance, and compliance of your AWS account. Actions taken by a user, role, or an AWS service are recorded as events in CloudTrail. Events include actions taken in the AWS Management Console, AWS Command Line Interface, and AWS SDKs and APIs.
