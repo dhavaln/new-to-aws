@@ -29,7 +29,8 @@ There are a few niche services, like AWS Shield Advanced, that may have fixed mo
 However there are different levels of `Free` offerings, Some resources are available free for first 12 months after initial signup, some resources are free for limited duration after you activate them and some resources are free for Life-time. To know more detail, please visit this page. 
 https://aws.amazon.com/free/
 
-Stay up-to-date with latest news with AWS News - https://aws.amazon.com/new/
+### Where can I get the latest updates of AWS?
+[AWS News](https://aws.amazon.com/new/) is the best source to get the recent features updates, new releases and other related information. 
 
 ### Where else I can get more detail resources for AWS?
 - https://awsstash.com/
