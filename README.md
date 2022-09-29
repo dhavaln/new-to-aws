@@ -58,6 +58,8 @@ https://aws.amazon.com/free/
 - What’s Free in AWS
 - Kill Switch 
 
+![Image](/new-to-aws-image-1.png)
+
 ## AWS Global Infrastructure
 The AWS Cloud infrastructure is built around AWS Regions, Availability Zones, and Edge locations. An AWS Region is a group of physical locations that has multiple data centers known as Availability Zones. Availability Zones consist of one or more discrete data centers, each with redundant power, networking, and connectivity, housed in separate facilities. These Availability Zones offer you the ability to operate production applications and databases that are more highly available, fault-tolerant, and scalable than would be possible from a single data center.
 
