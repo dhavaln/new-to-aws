@@ -52,7 +52,7 @@ https://aws.amazon.com/free/
 - [Amazon Simple Storage Service (S3)](#amazon-simple-storage-service)
 - [Amazon CloudWatch](#amazon-cloudwatch)
 - [AWS CloudTrail](#aws-cloudtrail)
-- AWS Virtual Private Cloud (VPC)
+- [AWS Virtual Private Cloud (VPC)](#amazon-virtual-private-cloud)
 - Amazon Elastic Compute Cloud (EC2)
 - Service quotas
 - What’s Free in AWS
@@ -182,3 +182,26 @@ CloudTrail is enabled by default on your AWS account when you create it. When ac
 - https://docs.aws.amazon.com/awscloudtrail/latest/userguide/how-cloudtrail-works.html
 - https://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudtrail-workflow.html
 - https://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudtrail-create-and-update-a-trail-by-using-the-console.html
+
+## Amazon Virtual Private Cloud
+Amazon Virtual Private Cloud (VPC) gives you full control over your virtual networking environment, including resource placement, connectivity, and security. Many AWS resources can only run inside VPC, like, EC2 Instances, RDS, and Load Balancers. VPC can be internally divided into public and protected sub networks. You can create a public-facing subnet for your web servers that have access to the internet and place your backend systems, such as databases or application servers, in a private-facing subnet with no internet access. Amazon VPC lets you to use multiple layers of security, including security groups and network access control lists, to help control access to Amazon Elastic Compute Cloud (Amazon EC2) instances in each subnet.
+
+Note: When you create a new AWS account, each region has one default VPC created. For many use cases, this default VPC can work just fine. 
+
+- https://docs.aws.amazon.com/vpc/latest/userguide/how-it-works.html
+- https://docs.aws.amazon.com/vpc/latest/userguide/default-vpc.html
+- https://docs.aws.amazon.com/vpc/latest/userguide/configure-subnets.html
+- https://docs.aws.amazon.com/vpc/latest/userguide/VPC_Route_Tables.html
+- https://docs.aws.amazon.com/vpc/latest/userguide/VPC_Internet_Gateway.html
+- https://docs.aws.amazon.com/vpc/latest/userguide/VPC_SecurityGroups.html
+- https://docs.aws.amazon.com/vpc/latest/userguide/vpc-security-best-practices.html
+
+### Do
+- Make sure you use the correct IP CIDR range while creating a new VPC
+- Understand the difference between Public and Private Subnets
+- Understand the difference between Security Groups and Network Access Control List (NACL)
+- Make sure Subnets are not too wide and not too narrow
+
+### Don't
+- Don't enable the public SSH access to EC2 instances, use your Home IP (temporary) or specific IP range of you home Internet
+- Don't create NAT Gateway unless really required. NAT Gateway has additional cost attached to it.
