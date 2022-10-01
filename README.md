@@ -53,7 +53,7 @@ https://aws.amazon.com/free/
 - [Amazon CloudWatch](#amazon-cloudwatch)
 - [AWS CloudTrail](#aws-cloudtrail)
 - [AWS Virtual Private Cloud (VPC)](#amazon-virtual-private-cloud)
-- Amazon Elastic Compute Cloud (EC2)
+- [Amazon Elastic Compute Cloud (EC2)](#amazon-elastic-compute-cloud-ec2)
 - Service quotas
 - What’s Free in AWS
 - Kill Switch 
@@ -228,6 +228,16 @@ Amazon EC2 provides the following features:
 - Static IPv4 addresses for dynamic cloud computing, known as Elastic IP addresses
 - Metadata, known as tags, that you can create and assign to your Amazon EC2 resources
 - Virtual networks you can create that are logically isolated from the rest of the AWS Cloud, and that you can optionally connect to your own network, known as virtual private clouds (VPCs)
+
+Amazon EC2 provides the following purchasing options to enable you to optimize your costs based on your needs. If you are still learning EC2, then make sure you always work with On-Demand or Spot instances as they will not incur any fixed cost. 
+
+- On-Demand Instances – Pay, by the second, for the instances that you launch.
+- Savings Plans – Reduce your Amazon EC2 costs by making a commitment to a consistent amount of usage, in USD per hour, for a term of 1 or 3 years.
+- Reserved Instances – Reduce your Amazon EC2 costs by making a commitment to a consistent instance configuration, including instance type and Region, for a term of 1 or 3 years.
+- Spot Instances – Request unused EC2 instances, which can reduce your Amazon EC2 costs significantly.
+- Dedicated Hosts – Pay for a physical host that is fully dedicated to running your instances, and bring your existing per-socket, per-core, or per-VM software licenses to reduce costs.
+- Dedicated Instances – Pay, by the hour, for instances that run on single-tenant hardware.
+- Capacity Reservations – Reserve capacity for your EC2 instances in a specific Availability Zone for any duration.
 
 Amazon EC2 is a complicated service and internally uses many other AWS services. Learning the EC2 and the support services will give you much better understanding of AWS Cloud in general.
 
