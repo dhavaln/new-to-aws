@@ -207,3 +207,36 @@ Note: When you create a new AWS account, each region has one default VPC created
 ### Don't
 - Don't enable the public SSH access to EC2 instances, use your Home IP (temporary) or specific IP range of you home Internet
 - Don't create NAT Gateway unless really required. NAT Gateway has additional cost attached to it.
+
+## Amazon Elastic Compute Cloud (EC2)
+First released in 2006, Amazon Elastic Compute Cloud (Amazon EC2) provides scalable computing capacity in the Amazon Web Services (AWS) Cloud. You can use Amazon EC2 to launch as many or as few virtual servers as you need, configure security and networking, and manage storage.
+
+Besides Linux and Windows operating systems, in November 2020, Amazon announced that it would be adding macOS to the EC2 service as well. EC2 has a popular Auto scaling feature that allows it to automatically adapt computing capacity to site traffic. 
+
+You can create small EC2 with 2 vCPUs and 0.5GB RAM or very large insntances with 400+ processors and 24TB of RAM. 
+
+As part of the AWS Free Tier, you can get started with Amazon EC2 for free. This includes 750 hours of Linux and Windows t2.micro instances (t3.micro for the regions in which t2.micro is unavailable), each month for one year. To stay within the Free Tier, use only EC2 Micro instances.
+
+Amazon EC2 provides the following features:
+- Preconfigured templates for your instances, known as Amazon Machine Images (AMIs), that package the bits you need for your server (including the operating system and additional software)
+- Various configurations of CPU, memory, storage, and networking capacity for your instances, known as instance types
+- Secure login information for your instances using key pairs (AWS stores the public key, and you store the private key in a secure place)
+- Storage volumes for temporary data that's deleted when you stop, hibernate, or terminate your instance, known as instance store volumes
+- Persistent storage volumes for your data using Amazon Elastic Block Store (Amazon EBS), known as Amazon EBS volumes
+- Multiple physical locations for your resources, such as instances and Amazon EBS volumes, known as Regions and Availability Zones
+- A firewall that enables you to specify the protocols, ports, and source IP ranges that can reach your instances using security groups
+- Static IPv4 addresses for dynamic cloud computing, known as Elastic IP addresses
+- Metadata, known as tags, that you can create and assign to your Amazon EC2 resources
+- Virtual networks you can create that are logically isolated from the rest of the AWS Cloud, and that you can optionally connect to your own network, known as virtual private clouds (VPCs)
+
+Amazon EC2 is a complicated service and internally uses many other AWS services. Learning the EC2 and the support services will give you much better understanding of AWS Cloud in general.
+
+- https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/EC2_GetStarted.html
+- https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-instances-and-amis.html
+- https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/instance-types.html
+- https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-key-pairs.html
+- https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/AmazonEBS.html
+- https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/security-group-rules.html
+- https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-instance-lifecycle.html
+- https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/using-instance-addressing.html
+- https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/monitoring_automated_manual.html
